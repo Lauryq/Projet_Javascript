@@ -22,3 +22,4 @@ Réaliser une page Web sur les variables et les fonctions JS:
 * Oscar MILLOT [GitHub](https://github.com/OscarM-Code)
 * Mickaël CECEN [GitHub](https://github.com/MickaelCe)
 * Laury QUARTO [GitHub](https://github.com/Lauryq)
+* Dylan CHAPUIS 
