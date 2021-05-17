@@ -19,7 +19,7 @@ Réaliser une page Web sur les variables et les fonctions JS:
 * Javascript
 
 ## Collaborateurs
-* Oscar MILLOT [GitHub](https://github.com/OscarM-Code)
-* Mickaël CECEN [GitHub](https://github.com/MickaelCe)
-* Laury QUARTO [GitHub](https://github.com/Lauryq)
+* [Oscar MILLOT](https://github.com/OscarM-Code)
+* [Mickaël CECEN](https://github.com/MickaelCe)
+* [Laury QUARTO](https://github.com/Lauryq)
 * Dylan CHAPUIS 
