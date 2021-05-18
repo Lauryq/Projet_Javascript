@@ -1,0 +1,117 @@
+@font-face {   
+    font-family: 'Roboto-Medium';
+    src: url('images/font/Roboto-Medium.ttf');
+}
+
+*{
+   padding:0;
+   margin:0;
+}
+
+#JavaS{
+    background: #5E68E4;
+    height: 75vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#index{
+    background: #5E68E4;
+    height: 25vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+#index a {
+    font-size: 2rem;
+    font-family: 'Roboto-Medium';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.underline {
+    background-color: white;
+    display: block;
+    height: 4px;
+    width: 100%;
+    padding: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+a:hover .underline {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#barre{
+    padding-left: 2rem;
+    display: none;
+}
+
+#j{
+    display: none;
+}
+#a{
+    display: none;
+}
+#v{
+    display: none;
+}
+#a2{
+    display: none;
+}
+#s{
+    display: none;
+}
+#c{
+    display: none;
+}
+#r{
+    display: none;
+}
+#i{
+    display: none;
+}
+#p{
+    display: none;
+}
+#t{
+    display: none;
+}
+
+#barrebloc{
+    animation: barrebloc 0.8s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes barrebloc{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#li1,#li2,#li3,#li4,#li5{
+    display:none;
+    animation: menuopa 2s;
+
+}
+
+@keyframes menuopa{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
