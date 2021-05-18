@@ -8,12 +8,12 @@
    margin:0;
 }
 h1{
-
+    display: flex;
+    align-items: center;
+    margin-left: 13vw;
     font-size: 4rem;
     font-family: 'Roboto-Medium';
-    color: red;
-
-    
+    color: black;
 }
 #svgg{
     display:none;
@@ -44,11 +44,11 @@ h1{
     display: flex;
     justify-content: space-between;
     z-index: -1;
-    height: 30vh;
+    height: 20vh;
 }
 main {
     z-index: 1;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -60,6 +60,14 @@ main {
     flex-direction: column;
 
 }
+
+#listfonc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #bloctexte{
     position: relative;
     border: solid;
@@ -68,8 +76,8 @@ main {
     border-color:#FFF1EA;
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
-    height: 50vh;
-    margin-top: 7rem;
+    height: 45vh;
+    margin-top: 1rem;
     overflow-y: scroll;
     scrollbar-color: red green;
     scrollbar-width: thin;
@@ -84,8 +92,8 @@ main {
     border-color:#FFF1EA;
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
-    height: 50vh;
-    margin-top: 8rem;
+    height: 45vh;
+    margin-top: 2rem;
     overflow-y: scroll;
     scrollbar-color: red green;
     scrollbar-width: thin;
@@ -99,7 +107,7 @@ main {
     border-color:#FFF1EA;
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
-    height: 50vh;
+    height: 45vh;
     margin-top: 8rem;
     overflow-y: scroll;
     scrollbar-color: red green;
@@ -114,7 +122,7 @@ main {
     border-color:#FFF1EA;
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
-    height: 50vh;
+    height: 45vh;
     margin-top: 8rem;
     overflow-y: scroll;
     scrollbar-color: red green;
@@ -129,7 +137,7 @@ main {
     border-color:#FFF1EA;
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
-    height: 50vh;
+    height: 45vh;
     margin-top: 8rem;
     overflow-y: scroll;
     scrollbar-color: red green;
@@ -245,105 +253,244 @@ a:hover .underline {
     }
 }
 
+/* Partie fournis par Oscar */
 
-    #menuToggle {
-    display: block;
-    justify-content: flex-end;
-    left: 3rem;
-    margin-top: 0;
-    -webkit-user-select: none;
-    user-select: none;
-    }
-    
-    /* couleur onglets menu */
-    #menuToggle a {
+main ul
+{
+    text-align: start;
+    font-family: 'Roboto-Medium';
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 9vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+a
+{
     text-decoration: none;
     color: black;
-    transition: color 0.3s ease;
-    }
-    
-    #menuToggle a:hover {
-    color: white;
-    }
-    
-    /* checkbox invisible et au dessus du burger */
-    #burger.fas.fa-ellipsis-v.icone_burger {
+}
+
+li
+{
+    margin-top: 1.5vw;
+}
+
+a:hover
+{
+    color: #5E68E4;
+}
+
+.underline2 {
+    background-color: #5E68E4;
     display: block;
-    margin-top: 1rem;
-    margin-left: 5rem;
-    cursor: pointer;
-    opacity: 0;
-    z-index: 999;
-    -webkit-touch-callout: none;
-    color: black;
+    height: 4px;
+    padding: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+a:hover .underline2 {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Ajustement des span page Variables || Début */
+
+#spanvar1
+{
+    width: 100%;
+}
+
+#spanvar2
+{
+    width: 33%;
+    margin-left: 34%;
+}
+
+#spanvar3
+{
+    width: 26%;
+    margin-left: 37%;
+}
+
+#spanvar4
+{
+    width: 28%;
+    margin-left: 36%;
+}
+
+/* Ajustement des span page Variables || Fin */
+
+/* Ajustement des span page Fonctions || Début */
+
+#spanfon1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanfon2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanfon3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanfon4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Fonctions || Fin */
+
+/* Ajustement des span page Instructions || Début */
+
+#spanins1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Instructions || Fin */
+
+/* Ajustement des span page Objets || Début */
+
+#spanobj1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Objets || Fin */
+
+/* Ajustement des span page Opérateurs || Début */
+
+#spanope1
+{
+    width: 47%;
+    margin-left: 26.5%;
+}
+
+#spanope2
+{
+    width: 52%;
+    margin-left: 24%;
+}
+
+#spanope3
+{
+    width: 49%;
+    margin-left: 25.5%;
+}
+
+#spanope4
+{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#spanope5
+{
+    width: 44%;
+    margin-left: 28%;
+}
+
+#spanope6
+{
+    width: 56%;
+    margin-left: 22%;
+}
+
+#spanope7
+{
+    width: 46%;
+    margin-left: 27%;
+}
+/* Contenue Laury */
+footer {
+    background-color: #5E68E4;
+    color: white;
+    padding-right: 2rem;
+    height: 10vh;
+    font-size:1rem;
+    font-family: 'Roboto-Medium';
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 16rem;
     }
     
-    .icone_burger {
-    margin-top: 2rem;
-    font-size: 2rem;
-    color: black;
-    z-index: 99999;
+    footer a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
     }
     
-    /* positionnement menu burger */
-    
-
-    
-    #menu_drop_mobile {
-    background: #828AEE;
-    list-style-type: none;
-    width: 10vw;
-    margin: 0 0 0 0;
-    padding: 50px;
-    padding-top: 8rem;
-    transform: translate(-100%,0);
-    transition: transform 0.5s;
-    }
-    
-    #menu_drop_mobile li {
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    }
-    
-    #menuToggle input:checked ~ ul {
-    transform: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 1024px){
-
+    h1{
+        display: flex;
+        align-items: center;
+        margin-left: 13vw;
+        font-size: 4rem;
+        font-family: 'Roboto-Medium';
+        color: white;
+    }
     #header {
         z-index: -1;
         height: 50vh;
     }
     main {
         z-index: 1;
-        height: 50vh;
+        height: 40vh;
         display: flex;
         justify-content:flex-end;
         align-items:center;
@@ -351,26 +498,26 @@ a:hover .underline {
     
     #bloctexte{
         position: relative;
-        bottom: 30rem;
+        bottom: 41rem;
         border: solid;
         border-radius:20px;
         background-color:#FFF1EA;
         border-color:#FFF1EA;
         width: 50vh;
-        height: 50vh;
+        height: 45vh;
         margin-right: 10rem;
         margin-bottom: 20rem;
         overflow-y: scroll;
     }
     #bloctexte2{
         position: relative;
-        bottom: 35rem;
+        bottom: 50rem;
         border: solid;
         border-radius:20px;
         background-color:#FFF1EA;
         border-color:#FFF1EA;
         width: 50vh;
-        height: 50vh;
+        height: 40vh;
         margin-right: 10rem;
         margin-top: 0;
         margin-bottom: 10rem;
@@ -379,13 +526,13 @@ a:hover .underline {
     #bloctexte3{
         position: relative;
         border: solid;
-        bottom: 40rem;
+        bottom: 60rem;
         border-radius:20px;
         background-color:#FFF1EA;
         border-color:#FFF1EA;
         box-shadow: 8px 8px 2px 1px #e4d8d2;
         width: 50vh;
-        height: 50vh;
+        height: 45vh;
         margin-right: 10rem;
         margin-bottom: 10rem;
         margin-top: 0;
@@ -394,13 +541,13 @@ a:hover .underline {
     #bloctexte4{
         position: relative;
         border: solid;
-        bottom: 40rem;
+        bottom: 58rem;
         border-radius:20px;
         background-color:#FFF1EA;
         border-color:#FFF1EA;
         box-shadow: 8px 8px 2px 1px #e4d8d2;
         width: 50vh;
-        height: 50vh;
+        height: 45vh;
         padding-right: 7rem;
         margin-bottom: 10rem;
         margin-top: 5rem;
@@ -409,13 +556,13 @@ a:hover .underline {
     #bloctexte5{
         position: relative;
         border: solid;
-        bottom: 40rem;
+        bottom: 52rem;
         border-radius:20px;
         background-color:#FFF1EA;
         border-color:#FFF1EA;
         box-shadow: 8px 8px 2px 1px #e4d8d2;
         width: 50vh;
-        height: 50vh;
+        height: 45vh;
         margin-top: 0;
         margin-right: 7rem;
         margin-bottom: 10rem;
@@ -439,14 +586,16 @@ a:hover .underline {
     #svgg{
         display: block;
         position: relative;
-        bottom: 25rem;
+        bottom: 24rem;
         margin-left: 5rem;
+        z-index: -999999;
     }
 
     #svggvar{
         display: block;
         position: relative;
-        bottom: 35rem;
+        bottom: 30rem;
+        z-index: -999999;
     }
     
     #svggop{
@@ -456,6 +605,7 @@ a:hover .underline {
         margin-top: 2rem;
         padding-right: 12rem;
         padding-bottom: 5rem;
+        z-index: -999999;
     }
     
     #svggins{
@@ -463,6 +613,7 @@ a:hover .underline {
         position: relative;
         bottom: 100%;
         padding-right: 15rem;
+        z-index: -999999;
     }
     
     #svggob{
@@ -473,6 +624,114 @@ a:hover .underline {
         padding-bottom: 10rem;
         margin-bottom: 1rem;
         margin-left: 3rem;
+        z-index: -999999;
     }
 
+    #listfonc{
+        display: block;
+        position: relative;
+        right: 65vw;
+        bottom: 17rem;
+    }
+    #listfonc2{
+        display: block;
+        position: relative;
+        right: 65vw;
+        bottom: 30rem;
+    }
+    #listfonc3{
+        position: relative;
+        flex-direction: row;
+        font-size: 1rem;
+        right: 65vw;
+        bottom: 38rem;
+    }
+    .columndiv{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #listfonc4{
+        display: block;
+        position: relative;
+        right: 60vw;
+        bottom: 30rem;
+    }
+    #listfonc5{
+        display: block;
+        position: relative;
+        right: 65vw;
+        bottom: 29rem;
+    }
+    footer {
+        background-color: #5E68E4;
+        color: white;
+        padding-right: 2rem;
+        height: 5.2vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: -1rem;
+        }
+        
+        footer a {
+        text-decoration: none;
+        color: white;
+        padding-left: 1rem;
+        }
+        #menu2{
+            position: relative;
+            bottom: 50vh;
+        }
+        #index2{
+            background: #5E68E4;
+            height: 25vh;
+            list-style-type: none;
+            display: flex;
+            flex-direction:row;
+            justify-content: space-evenly;
+            padding-bottom: -5rem;
+        }
+        #index2 a {
+            font-size: 1.5rem;
+            font-family: 'Roboto-Medium';
+            color: #FFFFFF;
+            text-decoration: none;
+            height: 10vh;
+        }
+        .underline {
+            background-color: white;
+            display: block;
+            height: 4px;
+            width: 100%;
+            padding: 0;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transition: all 0.25s;
+            transition: all 0.25s;
+        }
+        a:hover .underline {
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+        }
+        
   }
+
+  @media (max-width: 830px){
+     #index{
+    background: #5E68E4;
+    height: 25vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -5rem;
+    padding-bottom: 10vh;
+} 
+}
+
+
+  
