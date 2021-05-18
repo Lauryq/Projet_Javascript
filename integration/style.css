@@ -7,11 +7,31 @@
    padding:0;
    margin:0;
 }
+#menu2{
+    position: relative;
+    bottom: 50vh;
+}
+#index2{
+    background: #5E68E4;
+    margin-top: 12rem;
+    height: 25vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+#index2 a {
+    font-size: 1rem;
+    font-family: 'Roboto-Medium';
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 10vh;
+}
 h1{
     display: flex;
     align-items: center;
-    margin-left: 13vw;
-    font-size: 4rem;
+    margin-left: 1rem;
+    font-size: 2rem;
     font-family: 'Roboto-Medium';
     color: black;
 }
@@ -77,15 +97,14 @@ main {
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
     height: 45vh;
-    margin-top: 1rem;
+    margin-top: -18rem;
     overflow-y: scroll;
     scrollbar-color: red green;
     scrollbar-width: thin;
     
-
 }
 #bloctexte2{
-    position: relative;
+    position: center;
     border: solid;
     border-radius:20px;
     background-color:#FFF1EA;
@@ -93,7 +112,8 @@ main {
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
     height: 45vh;
-    margin-top: 2rem;
+    margin-top: -15rem;
+    margin-left: 1rem;
     overflow-y: scroll;
     scrollbar-color: red green;
     scrollbar-width: thin;
@@ -107,8 +127,8 @@ main {
     border-color:#FFF1EA;
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
-    height: 45vh;
-    margin-top: 8rem;
+    height: 40vh;
+    margin-top: -20rem;
     overflow-y: scroll;
     scrollbar-color: red green;
     scrollbar-width: thin;
@@ -123,7 +143,7 @@ main {
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
     height: 45vh;
-    margin-top: 8rem;
+    margin-top: -18rem;
     overflow-y: scroll;
     scrollbar-color: red green;
     scrollbar-width: thin;
@@ -138,11 +158,49 @@ main {
     box-shadow: 8px 8px 2px 1px #e4d8d2;
     width: 35vh;
     height: 45vh;
-    margin-top: 8rem;
+    margin-top: -18rem;
     overflow-y: scroll;
     scrollbar-color: red green;
     scrollbar-width: thin;
     
+}
+#listfonc{
+    display: block;
+    position: relative;
+    right:0 ;
+    bottom: 17rem;
+}
+#listfonc2{
+    display: block;
+    position: relative;
+    right: 0;
+    bottom: 15rem;
+}
+#listfonc3{
+    position: relative;
+    flex-direction: row;
+    font-size: 1rem;
+    right: 3rem;
+    bottom: 19rem;
+}
+.columndiv{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#listfonc4{
+    display: block;
+    position: relative;
+    right: 0;
+    bottom: 17rem;
+}
+#listfonc5{
+    display: block;
+    position: relative;
+    right: 0;
+    bottom: 18rem;
 }
 
 #JavaS{
@@ -331,26 +389,8 @@ a:hover .underline2 {
 
 #spanfon1
 {
-    width: 100%;
-    margin-left: 0%;
-}
-
-#spanfon2
-{
-    width: 100%;
-    margin-left: 0%;
-}
-
-#spanfon3
-{
-    width: 100%;
-    margin-left: 0%;
-}
-
-#spanfon4
-{
-    width: 100%;
-    margin-left: 0%;
+    width: 90%;
+    margin-left: 5vw;
 }
 
 /* Ajustement des span page Fonctions || Fin */
@@ -465,7 +505,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 16rem;
+    margin-top: 2rem;
     }
     
     footer a {
@@ -498,13 +538,13 @@ footer {
     
     #bloctexte{
         position: relative;
-        bottom: 41rem;
+        bottom: 22rem;
         border: solid;
         border-radius:20px;
         background-color:#FFF1EA;
         border-color:#FFF1EA;
         width: 50vh;
-        height: 45vh;
+        height: 40vh;
         margin-right: 10rem;
         margin-bottom: 20rem;
         overflow-y: scroll;
@@ -517,7 +557,7 @@ footer {
         background-color:#FFF1EA;
         border-color:#FFF1EA;
         width: 50vh;
-        height: 40vh;
+        height: 39vh;
         margin-right: 10rem;
         margin-top: 0;
         margin-bottom: 10rem;
@@ -532,7 +572,7 @@ footer {
         border-color:#FFF1EA;
         box-shadow: 8px 8px 2px 1px #e4d8d2;
         width: 50vh;
-        height: 45vh;
+        height: 44vh;
         margin-right: 10rem;
         margin-bottom: 10rem;
         margin-top: 0;
@@ -547,7 +587,7 @@ footer {
         border-color:#FFF1EA;
         box-shadow: 8px 8px 2px 1px #e4d8d2;
         width: 50vh;
-        height: 45vh;
+        height: 44vh;
         padding-right: 7rem;
         margin-bottom: 10rem;
         margin-top: 5rem;
@@ -562,7 +602,7 @@ footer {
         border-color:#FFF1EA;
         box-shadow: 8px 8px 2px 1px #e4d8d2;
         width: 50vh;
-        height: 45vh;
+        height: 44vh;
         margin-top: 0;
         margin-right: 7rem;
         margin-bottom: 10rem;
@@ -687,6 +727,7 @@ footer {
         }
         #index2{
             background: #5E68E4;
+            margin-top: 0;
             height: 25vh;
             list-style-type: none;
             display: flex;
@@ -716,7 +757,142 @@ footer {
             -webkit-transform: scaleX(1);
             transform: scaleX(1);
         }
-        
+        /* Ajustement des span page Variables || Début */
+
+#spanvar1
+{
+    width: 100%;
+}
+
+#spanvar2
+{
+    width: 33%;
+    margin-left: 34%;
+}
+
+#spanvar3
+{
+    width: 26%;
+    margin-left: 37%;
+}
+
+#spanvar4
+{
+    width: 28%;
+    margin-left: 36%;
+}
+
+/* Ajustement des span page Variables || Fin */
+
+/* Ajustement des span page Fonctions || Début */
+
+#spanfon1
+{
+    width: 60%;
+    margin-left: 5vw;
+}
+
+/* Ajustement des span page Fonctions || Fin */
+
+/* Ajustement des span page Instructions || Début */
+
+#spanins1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Instructions || Fin */
+
+/* Ajustement des span page Objets || Début */
+
+#spanobj1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Objets || Fin */
+
+/* Ajustement des span page Opérateurs || Début */
+
+#spanope1
+{
+    width: 47%;
+    margin-left: 26.5%;
+}
+
+#spanope2
+{
+    width: 52%;
+    margin-left: 24%;
+}
+
+#spanope3
+{
+    width: 49%;
+    margin-left: 25.5%;
+}
+
+#spanope4
+{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#spanope5
+{
+    width: 44%;
+    margin-left: 28%;
+}
+
+#spanope6
+{
+    width: 56%;
+    margin-left: 22%;
+}
+
+#spanope7
+{
+    width: 46%;
+    margin-left: 27%;
+}
   }
 
   @media (max-width: 830px){

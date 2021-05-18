@@ -5,20 +5,45 @@ let boutonIns2 = document.getElementById('bouton_instruction2');
 let boutonIns3 = document.getElementById('bouton_instruction3');
 let boutonIns4 = document.getElementById('bouton_instruction4');
 
-boutonIns1.addEventListener('click', function() {
-    p.textContent = ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut metus blandit, venenatis nisl ut, dictum magna. Maecenas diam magna, lacinia non bibendum a, egestas vel magna. Nam et leo libero. Nulla ut mauris gravida, lobortis metus vitae, congue urna. Proin porta venenatis ex sit amet tempus. Duis cursus eleifend orci, eget elementum neque ullamcorper ac. Fusce facilisis elementum nisl, id luctus augue tristique eget. Mauris egestas diam ut neque convallis, sit amet semper urna semperInterdum et malesuada fames ac ante ipsum primis in faucibus. Nulla in tortor molestie, viverra sapien at, tempus velit. Quisque in lacus sodales sapien accumsan fringilla. Quisque ullamcorper vestibulum magna, eu condimentum risus rhoncus eget. Nullam odio nisi, pellentesque eget convallis at, fermentum a magna. Suspendisse potenti. Curabitur eu turpis eget velit convallis ornare nec in ex. Fusce tellus magna, imperdiet at blandit in, consequat vitae libero.Sed scelerisque dictum erat quis tempor. Aenean posuere nunc nec ex porta, at lobortis tortor egestas. Nullam id ultrices velit. Nam volutpat nisl a erat ornare cursus. Vivamus at erat tempor, suscipit augue non, vehicula metus. Duis et scelerisque diam, at malesuada tellus. Pellentesque at viverra erat, sed pellentesque elit. Nulla a ipsum eget quam volutpat faucibus. Nunc nec dui eu nisi pulvinar viverra vitae id nibh. ';
-});
-
 boutonIns2.addEventListener('click', function() {
-    p.textContent = ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut metus blandit, venenatis nisl ut, dictum magna. Maecenas diam magna, lacinia non bibendum a, egestas vel magna. Nam et leo libero. Nulla ut mauris gravida, lobortis metus vitae, congue urna. Proin porta venenatis ex sit amet tempus. Duis cursus eleifend orci, eget elementum neque ullamcorper ac. Fusce facilisis elementum nisl, id luctus augue tristique eget. Mauris egestas diam ut neque convallis, sit amet semper urna semperInterdum et malesuada fames ac ante ipsum primis in faucibus. Nulla in tortor molestie, viverra sapien at, tempus velit. Quisque in lacus sodales sapien accumsan fringilla. Quisque ullamcorper vestibulum magna, eu condimentum risus rhoncus eget. Nullam odio nisi, pellentesque eget convallis at, fermentum a magna. Suspendisse potenti. Curabitur eu turpis eget velit convallis ornare nec in ex. Fusce tellus magna, imperdiet at blandit in, consequat vitae libero.Sed scelerisque dictum erat quis tempor. Aenean posuere nunc nec ex porta, at lobortis tortor egestas. Nullam id ultrices velit. Nam volutpat nisl a erat ornare cursus. Vivamus at erat tempor, suscipit augue non, vehicula metus. Duis et scelerisque diam, at malesuada tellus. Pellentesque at viverra erat, sed pellentesque elit. Nulla a ipsum eget quam volutpat faucibus. Nunc nec dui eu nisi pulvinar viverra vitae id nibh. ';
-});
-
-boutonIns3.addEventListener('click', function() {
-    p.textContent = ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut metus blandit, venenatis nisl ut, dictum magna. Maecenas diam magna, lacinia non bibendum a, egestas vel magna. Nam et leo libero. Nulla ut mauris gravida, lobortis metus vitae, congue urna. Proin porta venenatis ex sit amet tempus. Duis cursus eleifend orci, eget elementum neque ullamcorper ac. Fusce facilisis elementum nisl, id luctus augue tristique eget. Mauris egestas diam ut neque convallis, sit amet semper urna semperInterdum et malesuada fames ac ante ipsum primis in faucibus. Nulla in tortor molestie, viverra sapien at, tempus velit. Quisque in lacus sodales sapien accumsan fringilla. Quisque ullamcorper vestibulum magna, eu condimentum risus rhoncus eget. Nullam odio nisi, pellentesque eget convallis at, fermentum a magna. Suspendisse potenti. Curabitur eu turpis eget velit convallis ornare nec in ex. Fusce tellus magna, imperdiet at blandit in, consequat vitae libero.Sed scelerisque dictum erat quis tempor. Aenean posuere nunc nec ex porta, at lobortis tortor egestas. Nullam id ultrices velit. Nam volutpat nisl a erat ornare cursus. Vivamus at erat tempor, suscipit augue non, vehicula metus. Duis et scelerisque diam, at malesuada tellus. Pellentesque at viverra erat, sed pellentesque elit. Nulla a ipsum eget quam volutpat faucibus. Nunc nec dui eu nisi pulvinar viverra vitae id nibh. ';
+    p3.innerHTML = `<br><br><br>L'instruction if exécute une instruction si une condition donnée est vraie ou équivalente à vrai. Si la condition n'est pas vérifiée, il est possible d'utiliser une autre instruction.
+    Plusieurs instructions if...else peuvent être imbriquées afin de créer une structure else if (on notera qu'il n'y a pas de mot-clé elseif en JavaScript).
+    
+    `;
 });
 
 boutonIns4.addEventListener('click', function() {
-    p.textContent = ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut metus blandit, venenatis nisl ut, dictum magna. Maecenas diam magna, lacinia non bibendum a, egestas vel magna. Nam et leo libero. Nulla ut mauris gravida, lobortis metus vitae, congue urna. Proin porta venenatis ex sit amet tempus. Duis cursus eleifend orci, eget elementum neque ullamcorper ac. Fusce facilisis elementum nisl, id luctus augue tristique eget. Mauris egestas diam ut neque convallis, sit amet semper urna semperInterdum et malesuada fames ac ante ipsum primis in faucibus. Nulla in tortor molestie, viverra sapien at, tempus velit. Quisque in lacus sodales sapien accumsan fringilla. Quisque ullamcorper vestibulum magna, eu condimentum risus rhoncus eget. Nullam odio nisi, pellentesque eget convallis at, fermentum a magna. Suspendisse potenti. Curabitur eu turpis eget velit convallis ornare nec in ex. Fusce tellus magna, imperdiet at blandit in, consequat vitae libero.Sed scelerisque dictum erat quis tempor. Aenean posuere nunc nec ex porta, at lobortis tortor egestas. Nullam id ultrices velit. Nam volutpat nisl a erat ornare cursus. Vivamus at erat tempor, suscipit augue non, vehicula metus. Duis et scelerisque diam, at malesuada tellus. Pellentesque at viverra erat, sed pellentesque elit. Nulla a ipsum eget quam volutpat faucibus. Nunc nec dui eu nisi pulvinar viverra vitae id nibh. ';
+    p3.innerHTML = `<br>Les boucles permettent de répéter des actions simplement et rapidement. Une boucle peut être vue comme une version informatique de « copier N lignes » ou de « faire X fois quelque chose ».<br>
+    <br>
+    •	L’instruction for<br>
+    > Une boucle for répète des instructions jusqu'à ce qu'une condition donnée ne soit plus vérifiée.<br>
+    Ex. for ([expressionInitiale]; [condition];[expressionIncrément])
+    instruction<br>
+    <br>
+    <br>  
+    •	L’instruction do...while<br>
+    > L'instruction do…while permet de répéter un ensemble d'instructions jusqu'à ce qu'une condition donnée ne soit plus vérifiée.<br>
+    Ex. do 
+    Instruction<br>
+       while (condition);<br>
+    
+       <br>
+    •	L’instruction while<br>
+    > Une instruction while permet d'exécuter une instruction tant qu'une condition donnée est vérifiée.<br>
+    Ex. while (condition) instruction
+    <br>
+    
+    •	L’instruction label<br>
+    > Un label (ou étiquette) permet de fournir un identifiant pour une instruction afin d'y faire référence depuis un autre endroit dans le programme. On peut ainsi identifier une boucle grâce à un label puis utiliser les instructions break ou continue pour indiquer si le programme doit interrompre ou poursuivre l'exécution de cette boucle.<br>
+    <br>
+    •	L’instruction continue<br>
+    > L'instruction continue permet de reprendre une boucle while, dowhile, for, ou une instruction label.
+    Lorsque continue est utilisé sans label, l'itération courante de la boucle (celle la plus imbriquée) est terminée et la boucle passe à l'exécution de la prochaine itération. À la différence de l'instruction break, continue ne stoppe pas entièrement l'exécution de la boucle. Si elle est utilisée dans une boucle while, l'itération reprend au niveau de la condition d'arrêt. Dans une boucle for, l'itération reprend au niveau de l'expression d'incrément pour la boucle.
+    Lorsque continue est utilisé avec un label, il est appliqué à l'instruction de boucle correspondante.
+    <br>
+    •	L’instruction for...of<br>
+    L'instruction for...of crée une boucle qui fonctionne avec les objets itérables (qui incluent Array, Map, Set, l'objet arguments, etc.). La boucle appelle un mécanisme d'itération propre à l'objet utilisé et elle parcourt l'objet et les valeurs de ses différentes propriétés.
+    `;
 });
 
 // Ajout du text page Instruction || Fin

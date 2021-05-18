@@ -6,19 +6,15 @@ let boutonFon3 = document.getElementById('bouton_fonction3');
 let boutonFon4 = document.getElementById('bouton_fonction4');
 
 boutonFon1.addEventListener('click', function() {
-    p2.textContent = " Les fonctions font partie des briques fondamentales de JavaScript. Une fonction est une procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur. Afin d'utiliser une fonction, il est nécessaire de l'avoir auparavant définie au sein de la portée dans laquelle on souhaite l'appeler. ";
+    p2.innerHTML = `<br>Une fonction est une procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur.<br>
+    <br>
+    Une définition de fonction (aussi appelée déclaration de fonction ou instruction de fonction) est construite avec le mot-clé function, suivi par :<br>
+    •	Le nom de la fonction (ou pas, elle peut être « anonyme », c’est-à-dire sans nom, si elle n’a pas besoin d’être appelé de nouveau par la suite).<br>
+    •	Une liste d'arguments à passer à la fonction, entre parenthèses et séparés par des virgules.<br>
+    •	Les instructions JavaScript définissant la fonction, entre accolades, { }.<br>
+    <br>
+    <br>    
+    La seule définition d'une fonction ne permet pas d'exécuter la fonction. Cela permet de lui donner un nom et de définir ce qui doit être fait lorsque la fonction est appelée. Appeler la fonction permet d'effectuer les actions des instructions avec les paramètres indiqués.
+    `;
 });
-
-boutonFon2.addEventListener('click', function() {
-    p2.textContent = ' desrftghyujikujhy ut metus blandit, venenatis nisl ut, dictum magna. Maecenas diam magna, lacinia non bibendum a, egestas vel magna. Nam et leo libero. Nulla ut mauris gravida, lobortis metus vitae, congue urna. Proin porta venenatis ex sit amet tempus. Duis cursus eleifend orci, eget elementum neque ullamcorper ac. Fusce facilisis elementum nisl, id luctus augue tristique eget. Mauris egestas diam ut neque convallis, sit amet semper urna semperInterdum et malesuada fames ac ante ipsum primis in faucibus. Nulla in tortor molestie, viverra sapien at, tempus velit. Quisque in lacus sodales sapien accumsan fringilla. Quisque ullamcorper vestibulum magna, eu condimentum risus rhoncus eget. Nullam odio nisi, pellentesque eget convallis at, fermentum a magna. Suspendisse potenti. Curabitur eu turpis eget velit convallis ornare nec in ex. Fusce tellus magna, imperdiet at blandit in, consequat vitae libero.Sed scelerisque dictum erat quis tempor. Aenean posuere nunc nec ex porta, at lobortis tortor egestas. Nullam id ultrices velit. Nam volutpat nisl a erat ornare cursus. Vivamus at erat tempor, suscipit augue non, vehicula metus. Duis et scelerisque diam, at malesuada tellus. Pellentesque at viverra erat, sed pellentesque elit. Nulla a ipsum eget quam volutpat faucibus. Nunc nec dui eu nisi pulvinar viverra vitae id nibh. ';
-});
-
-boutonFon3.addEventListener('click', function() {
-    p.textContent = ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut metus blandit, venenatis nisl ut, dictum magna. Maecenas diam magna, lacinia non bibendum a, egestas vel magna. Nam et leo libero. Nulla ut mauris gravida, lobortis metus vitae, congue urna. Proin porta venenatis ex sit amet tempus. Duis cursus eleifend orci, eget elementum neque ullamcorper ac. Fusce facilisis elementum nisl, id luctus augue tristique eget. Mauris egestas diam ut neque convallis, sit amet semper urna semperInterdum et malesuada fames ac ante ipsum primis in faucibus. Nulla in tortor molestie, viverra sapien at, tempus velit. Quisque in lacus sodales sapien accumsan fringilla. Quisque ullamcorper vestibulum magna, eu condimentum risus rhoncus eget. Nullam odio nisi, pellentesque eget convallis at, fermentum a magna. Suspendisse potenti. Curabitur eu turpis eget velit convallis ornare nec in ex. Fusce tellus magna, imperdiet at blandit in, consequat vitae libero.Sed scelerisque dictum erat quis tempor. Aenean posuere nunc nec ex porta, at lobortis tortor egestas. Nullam id ultrices velit. Nam volutpat nisl a erat ornare cursus. Vivamus at erat tempor, suscipit augue non, vehicula metus. Duis et scelerisque diam, at malesuada tellus. Pellentesque at viverra erat, sed pellentesque elit. Nulla a ipsum eget quam volutpat faucibus. Nunc nec dui eu nisi pulvinar viverra vitae id nibh. ';
-});
-
-boutonFon4.addEventListener('click', function() {
-    p.textContent = ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut metus blandit, venenatis nisl ut, dictum magna. Maecenas diam magna, lacinia non bibendum a, egestas vel magna. Nam et leo libero. Nulla ut mauris gravida, lobortis metus vitae, congue urna. Proin porta venenatis ex sit amet tempus. Duis cursus eleifend orci, eget elementum neque ullamcorper ac. Fusce facilisis elementum nisl, id luctus augue tristique eget. Mauris egestas diam ut neque convallis, sit amet semper urna semperInterdum et malesuada fames ac ante ipsum primis in faucibus. Nulla in tortor molestie, viverra sapien at, tempus velit. Quisque in lacus sodales sapien accumsan fringilla. Quisque ullamcorper vestibulum magna, eu condimentum risus rhoncus eget. Nullam odio nisi, pellentesque eget convallis at, fermentum a magna. Suspendisse potenti. Curabitur eu turpis eget velit convallis ornare nec in ex. Fusce tellus magna, imperdiet at blandit in, consequat vitae libero.Sed scelerisque dictum erat quis tempor. Aenean posuere nunc nec ex porta, at lobortis tortor egestas. Nullam id ultrices velit. Nam volutpat nisl a erat ornare cursus. Vivamus at erat tempor, suscipit augue non, vehicula metus. Duis et scelerisque diam, at malesuada tellus. Pellentesque at viverra erat, sed pellentesque elit. Nulla a ipsum eget quam volutpat faucibus. Nunc nec dui eu nisi pulvinar viverra vitae id nibh. ';
-});
-
 // Ajout du text page Fonction || Fin
