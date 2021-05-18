@@ -115,3 +115,243 @@ a:hover .underline {
         opacity: 1;
     }
 }
+
+/* Mise en forme bouton pour changer texts (Oscar)  || Début  */
+
+main ul
+{
+    text-align: start;
+    font-family: 'Roboto-Medium';
+    list-style: none;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 9vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+li
+{
+    margin-top: 1.5vw;
+}
+
+a:hover
+{
+    color: #5E68E4;
+}
+
+.underline2 {
+    background-color: #5E68E4;
+    display: block;
+    height: 4px;
+    padding: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+a:hover .underline2 {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.liste
+{
+    font-family: 'Roboto-Medium';
+    width: 50vw;
+    text-align: center;
+}
+
+.liste p
+{
+    margin-left: 9vw;
+    font-size: 1.7vw;
+}
+
+/* Ajustement des span page Variables || Début */
+
+#spanvar1
+{
+    width: 100%;
+}
+
+#spanvar2
+{
+    width: 33%;
+    margin-left: 34%;
+}
+
+#spanvar3
+{
+    width: 26%;
+    margin-left: 37%;
+}
+
+#spanvar4
+{
+    width: 28%;
+    margin-left: 36%;
+}
+
+/* Ajustement des span page Variables || Fin */
+
+/* Ajustement des span page Fonctions || Début */
+
+#spanfon1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanfon2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanfon3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanfon4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Fonctions || Fin */
+
+/* Ajustement des span page Instructions || Début */
+
+#spanins1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanins4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Instructions || Fin */
+
+/* Ajustement des span page Objets || Début */
+
+#spanobj1
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj2
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj3
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+#spanobj4
+{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Ajustement des span page Objets || Fin */
+
+/* Ajustement des span page Opérateurs || Début */
+
+#spanope1
+{
+    width: 47%;
+    margin-left: 26.5%;
+}
+
+#spanope2
+{
+    width: 52%;
+    margin-left: 24%;
+}
+
+#spanope3
+{
+    width: 49%;
+    margin-left: 25.5%;
+}
+
+#spanope4
+{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#spanope5
+{
+    width: 44%;
+    margin-left: 28%;
+}
+
+#spanope6
+{
+    width: 56%;
+    margin-left: 22%;
+}
+
+#spanope7
+{
+    width: 46%;
+    margin-left: 27%;
+}
+
+/* Ajustement des span page Opérateurs || Fin */
+
+@media all and (max-device-width: 600px)
+{
+    ul
+    {
+        font-size: 3vh;
+        margin: 0%;
+    }
+
+    main
+    {
+        flex-direction: column;
+    }
+}
+
+/* Mise en forme bouton pour changer texts (Oscar)  || Fin */

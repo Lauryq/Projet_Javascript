@@ -49,4 +49,3 @@ setTimeout(function(){
     li4.style.display ='block'}, 2300);
 setTimeout(function(){
     li5.style.display ='block'}, 2300);
-
