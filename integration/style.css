@@ -1,6 +1,6 @@
 @font-face {   
     font-family: 'Roboto-Medium';
-    src: url('images/font/Roboto-Medium.ttf');
+    src: url('./font/Roboto-Medium.ttf');
 }
 
 *{
@@ -14,7 +14,7 @@ p {
 }
 
 /* Création de la grille dans le body des page */
-#others {
+#grille {
     font-family: 'Roboto-Medium';
     margin: 0;
     display: grid;
@@ -50,7 +50,7 @@ p {
     align-items:center;
 }
 
-#index2{
+#navigation{
     background:#5E68E4;
     width:100vw;
     display:flex;
@@ -58,7 +58,7 @@ p {
     justify-content:space-around;
     list-style-type: none;
 }
-#index2 a {
+#navigation a {
     font-size: 2rem;
     font-family: 'Roboto-Medium';
     color: white;
@@ -159,7 +159,10 @@ h1 {
     flex-direction: column;
     list-style-type: none;
 }
-
+#listfonc3 ol{
+    list-style: none;
+    text-align: center;
+    }
 #listfonc3 a {
     font-size: 1.5rem;
     font-family: 'Roboto-Medium';
@@ -277,7 +280,7 @@ a:hover .underline2 {
 
 
 /* Le fond de la page index */
-#JavaS{
+main{
     display: flex;
     align-items: center;
     justify-content:center;
@@ -457,16 +460,16 @@ a:hover .underline {
     padding-bottom: 10vh;
 } 
 
-#index2{
+#navigation{
     display: none;
 }
-#others {
+#grille {
     font-family: 'Roboto-Medium';
     margin: 0;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows:15vh 35vh 35vh 15vh;
-    grid-template-areas: "nav nav"
+    grid-template-columns: 60% 40%;
+    grid-template-rows:15vh 30vh 40vh 15vh;
+    grid-template-areas: "nav menu"
                          "sv sv"
                          "bloctexte bloctexte"
                          "footer footer";
@@ -475,13 +478,13 @@ a:hover .underline {
 #vague {
     /* <row-start> / <column-start> / <row-end> / <column-end> */
     
-    grid-area: 2 / 1/ 3 / 3;
+    grid-area: 1 / 1/ 3 / 3;
     background: linear-gradient(#5E68E4 65%, #828AEE);
 }
 
 h1 {
     grid-area: nav;
-    font-size: 3rem;
+    font-size: 2rem;
     align-self: end;
     justify-self: center;
     color: white;
@@ -512,14 +515,14 @@ h1 {
 #listfonc {
     grid-area: sv;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:center;
     flex-direction: column;
     list-style-type: none;
 }
 
 #listfonc a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Roboto-Medium';
     color: white;
     text-decoration: none;
@@ -542,13 +545,10 @@ h1 {
 }
 
 #listfonc3{
-    margin-right: 7vw;
+    margin-right: 0vw;
     grid-area: sv;
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
-    flex-direction: column;
-    list-style-type: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #listfonc3 a {
@@ -557,7 +557,17 @@ h1 {
     color: white;
     text-decoration: none;
 }
-
+#listfonc3 ol{
+    list-style: none;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: column;
+    }
+    
+    #listfonc3 ol li{
+    padding-top: 1rem;
+    }
 #listfonc4{
     margin-right: 7vw;
     grid-area: sv;
@@ -608,34 +618,54 @@ footer * {
     background-color: white;
 }
 
+
+
 .menu {
-    box-sizing: content-box !important;
-    position: fixed;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    text-align: center;
-    border: 3px solid #fff;
-    background: #5E68E4;
-    z-index: 999;
-    color: #fff;
+grid-area: menu;
+color:white;
+display: flex;
+position: relative;
+justify-self: flex-end;
+padding-top: 2rem;
+width: 40vw;
+flex-direction: column;
+text-align: center;
 }
-.menu:hover {
-    background: ligthen(#5E68E4, 5%);
+
+.menu label {
+font-size: 3rem;
 }
-.menu a {
-    display: block;
-    text-decoration: none;
-    font-size: 48pt;
-    font-weight: bold;
-    color: #fff;
-    margin: 0 auto;
+
+.menu ul {
+display: none;
+list-style: none;
+background: #828AEE;
 }
-.menu .close {
-    display: none;
+
+.menu input[type=checkbox]:checked+ul {
+display: flex;
+flex-flow : column nowrap;
 }
-.menu {
-    display: block;
+
+.menu input[type=checkbox] {
+display: none;
 }
+
+.menu ul li {
+flex: 1 1 auto;
+text-align: center;
+}
+
+.menu a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 0.5rem;
+}
+
+
+
+
+
+
   }
