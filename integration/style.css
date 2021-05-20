@@ -8,9 +8,12 @@
    margin:0;
    font-family: 'Roboto-Medium';
 }
+
 p {
     padding: 2rem;
 }
+
+/* Création de la grille dans le body des page */
 #others {
     font-family: 'Roboto-Medium';
     margin: 0;
@@ -28,6 +31,9 @@ p {
 .menu {
     display: none;
 }
+
+/* Mise en forme des différentes section de la grille */
+
 #vague {
     /* <row-start> / <column-start> / <row-end> / <column-end> */
     
@@ -70,6 +76,7 @@ h1 {
 
 }
 
+/* Les svg au dessus des bloc texte rose */
 #svggvar{
     background-image: url('images/les_variables.svg');
     grid-area: sv;
@@ -108,6 +115,8 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Les différents listes a gauche */
 
 #listfonc {
     grid-area: list;
@@ -209,6 +218,8 @@ h1 {
     width:70%;
 }
 
+/* Scrollbar dans le bloc texte rose */
+
 #bloctexte::-webkit-scrollbar-track
 {
 	border-radius: 20px;
@@ -228,6 +239,7 @@ h1 {
 	background-color: none;
 }
 
+
 footer {
     background:#5E68E4;
     grid-area: footer;
@@ -243,6 +255,7 @@ footer * {
 }
 
 
+/* Les lignes sous les elements de la liste au gauche du bloctexte */
 
 .underline2 {
     background-color: black;
@@ -263,10 +276,7 @@ a:hover .underline2 {
 
 
 
-
-
-
-
+/* Le fond de la page index */
 #JavaS{
     display: flex;
     align-items: center;
@@ -428,6 +438,10 @@ a:hover .underline {
     padding-left: 1rem;
     }
      */
+
+
+
+     
 /* responsive  */
 
   @media (max-width: 830px){
