@@ -1,3 +1,4 @@
+
 let J = document.getElementById('j');
 let A = document.getElementById('a');
 let V = document.getElementById('v');
@@ -15,7 +16,7 @@ let li3 = document.querySelector('#li3');
 let li4 = document.querySelector('#li4');
 let li5 = document.querySelector('#li5');
 
-
+// animation du javascript dans l'index
 setTimeout(function(){ 
     J.style.display ='block'}, 200);
 setTimeout(function(){ 

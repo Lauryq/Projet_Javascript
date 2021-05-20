@@ -6,14 +6,14 @@ let boutonIns3 = document.getElementById('bouton_instruction3');
 let boutonIns4 = document.getElementById('bouton_instruction4');
 
 boutonIns2.addEventListener('click', function() {
-    p3.innerHTML = `<br><br><br>L'instruction if exécute une instruction si une condition donnée est vraie ou équivalente à vrai. Si la condition n'est pas vérifiée, il est possible d'utiliser une autre instruction.
+    p1.innerHTML = `L'instruction if exécute une instruction si une condition donnée est vraie ou équivalente à vrai. Si la condition n'est pas vérifiée, il est possible d'utiliser une autre instruction.
     Plusieurs instructions if...else peuvent être imbriquées afin de créer une structure else if (on notera qu'il n'y a pas de mot-clé elseif en JavaScript).
     
     `;
 });
 
 boutonIns4.addEventListener('click', function() {
-    p3.innerHTML = `<br>Les boucles permettent de répéter des actions simplement et rapidement. Une boucle peut être vue comme une version informatique de « copier N lignes » ou de « faire X fois quelque chose ».<br>
+    p1.innerHTML = `Les boucles permettent de répéter des actions simplement et rapidement. Une boucle peut être vue comme une version informatique de « copier N lignes » ou de « faire X fois quelque chose ».<br>
     <br>
     •	L’instruction for<br>
     > Une boucle for répète des instructions jusqu'à ce qu'une condition donnée ne soit plus vérifiée.<br>

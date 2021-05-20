@@ -11,49 +11,64 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Javascript</title>
     <link rel="icon" type="image/svg" href="images/Unofficial_JavaScript_logo_2.svg"/>
+    <link href='https://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
-    <!-- Vague bleue -->
-   
-    <header id="header">
-        <h1>Variables</h1>
-    </header>
-    <!-- Vague bleue fin -->
-     <nav id="menu2">
-        <ul id="index2" style="height: 50px;">
-            <li id="li" style="height: 50px;"><a href="variables.html">Variables<span class="underline"></span></a></li>
-            <li id="li" style="height: 50px;"><a href="operateurs.html">Les opérateurs<span class="underline"></span></a></li> 
-            <li id="li" style="height: 50px;"><a href="instructions.html">Instructions<span class="underline"></span></a></li>
-            <li id="li" style="height: 50px;"><a href="objets.html">Les objets<span class="underline"></span></a></li>
-            <li id="li" style="height: 50px;"><a href="fonctions.html">Fonctions<span class="underline"></span></a></li>
-            <li id="li" style="height: 50px;"><a href="index.html">Accueil<span class="underline"></span></a></li>
-        </ul>
-    </nav>
-    <main id="fonction">
-        
-        <div id="svggvar">
-                <img src="images/les_variables.svg" width="500vw" height="500vh">
+<body id="others">
+<div class="drop-down">
+        <nav role='navigation'>
+          <h1> - Navigation - </h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>  
         </div>
-            <!-- Ajout des bouton pour changer le texte DEBUT-->
+        <div class="menu">
+          <a class="trigger" href="#">&equiv;</a>
+          <a class="close" href="#">&times;</a>
+        </div>
+    <section id="vague"></section>
+    
+    <header id="headergrid">
+       <nav id="menu2">
+        <ul id="index2" >
+            <li id="li" ><a href="variables.html">Variables<span class="underline"></span></a></li>
+            <li id="li" ><a href="operateurs.html">Les opérateurs<span class="underline"></span></a></li> 
+            <li id="li" ><a href="instructions.html">Instructions<span class="underline"></span></a></li>
+            <li id="li" ><a href="objets.html">Les objets<span class="underline"></span></a></li>
+            <li id="li" ><a href="fonctions.html">Fonctions<span class="underline"></span></a></li>
+            <li id="li" ><a href="index.html">Accueil<span class="underline"></span></a></li>
+        </ul>
+    </nav> 
+    </header>
+     
+        <!-- Ajout des bouton pour changer le texte DEBUT-->
+        <h1>Variables</h1>
             <ul id="listfonc2">
                 <li><a href="#" id="bouton_variable1">Les variables, qu'est ce que c'est ?<span class="underline2" id="spanvar1"></span></a></li>
                 <li><a href="#" id="bouton_variable2">Type Const<span class="underline2" id="spanvar2"></span></a></li>
                 <li><a href="#" id="bouton_variable3">Type Var<span class="underline2" id="spanvar3"></span></a></li>
                 <li><a href="#" id="bouton_variable4">Type Let<span class="underline2" id="spanvar4"></span></a></li>
             </ul>
-        <!-- Ajout des bouton pour changer le texte FIN-->
-        <section id="bloctexte2">
-            <p id="p1"></p>
-        </section>
-        
-    </main>
+         <!-- Ajout des bouton pour changer le texte FIN-->   
+        <div id="svggvar"></div>
+        <section id="sectiontexte">
+            <div id="bloctexte"><p id="p1"></p></div>
+        </section> 
+
     <footer>
-            <a href="https://github.com/OscarM-Code" target="_blank">Oscar MILLOT </a>
-            <a href="https://github.com/MickaelCe" target="_blank">Mickaël CECEN</a>
-            <a href="">Dylan CHAPUIS</a>
-            <a href="https://github.com/Lauryq" target="_blank">Laury QUARTO</a>
-            </footer>
+        <span>
+            - <a href="https://github.com/OscarM-Code" target="_blank">Oscar MILLOT</a> -
+            <a href="https://github.com/MickaelCe" target="_blank">Mickaël CECEN</a> -
+            <a href="">Dylan CHAPUIS</a> -
+            <a href="https://github.com/Lauryq" target="_blank">Laury QUARTO</a> -
+        </span>
+    </footer>
+    
     <script src="script.js"></script>
     <script src="script_variable.js"></script>
 </body>
