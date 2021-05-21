@@ -9,10 +9,23 @@
    font-family: 'Roboto-Medium';
 }
 
-p {
-    padding: 2rem;
+#p1 {
+    grid-area: bloctexte;
+    height: 1vh;
+    
 }
 
+
+#listbloctext{
+    margin-bottom: 1rem;
+}
+
+h2{
+    padding-bottom: 1rem;
+}
+hr {
+    margin-bottom: 1rem;
+}
 /* Création de la grille dans le body des page */
 #grille {
     font-family: 'Roboto-Medium';
@@ -154,7 +167,6 @@ h1 {
     margin-right: 7vw;
     grid-area: list;
     display:flex;
-    justify-content:space-evenly;
     align-items:center;
     flex-direction: column;
     list-style-type: none;
@@ -162,12 +174,19 @@ h1 {
 #listfonc3 ol{
     list-style: none;
     text-align: center;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
     }
+
 #listfonc3 a {
     font-size: 1.5rem;
     font-family: 'Roboto-Medium';
     color: black;
     text-decoration: none;
+    
+
 }
 
 #listfonc4{
@@ -208,35 +227,33 @@ h1 {
     grid-area: bloctexte;
     display:flex;
     justify-content: center;
-    align-items:center;
-}
-#bloctexte {
     border: solid;
     border-radius:10px;
     background-color:#FFF1EA;
     border-color:#FFF1EA;
     box-shadow: 8px 8px 2px 1px #e4d8d2;
+    margin: 2rem 2rem 4rem 2rem;
+    padding: 2rem 2rem 4rem 2rem ;
     overflow-y: scroll;
-    height:31vh;
-    width:70%;
 }
+
 
 /* Scrollbar dans le bloc texte rose */
 
-#bloctexte::-webkit-scrollbar-track
+#sectiontexte::-webkit-scrollbar-track
 {
 	border-radius: 20px;
 	background-color: #FFF1EA;
 }
 
-#bloctexte::-webkit-scrollbar
+#sectiontexte::-webkit-scrollbar
 {
 	width: 12px;
 	background-color: #FFF1EA;
     background: none;
 }
 
-#bloctexte::-webkit-scrollbar-thumb
+#sectiontexte::-webkit-scrollbar-thumb
 {
 	border-radius: 20px;
 	background-color: none;
@@ -274,6 +291,11 @@ footer * {
 a:hover .underline2 {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+a:focus .underline2 {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    
 }
 
 
@@ -456,7 +478,7 @@ a:hover .underline {
     flex-direction:column;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: -5rem;
+    margin-top: -10rem;
     padding-bottom: 10vh;
 } 
 #barrebloc{
@@ -482,7 +504,7 @@ a:hover .underline {
     
     grid-area: 2 / 1/ 4 / 3;
     background-image: url("images/fond_mobile.svg");
-    background-size: cover;
+    
 }
 .menu{
     background: #5E68E4;
@@ -669,9 +691,15 @@ display: block;
 padding: 0.5rem;
 }
 
+}
 
+@media (min-width: 425px){
 
+    footer * {
+        font-size: 0.8rem;
+        font-family: 'Roboto-Medium';
+        color: white;
+        text-decoration: none;
+    }
 
-
-
-  }
+}
