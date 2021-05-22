@@ -15,6 +15,11 @@
     
 }
 
+#svgfooter {
+    grid-area: list;
+    align-self: end;
+    display: block;
+}
 
 #listbloctext{
     margin-bottom: 1rem;
@@ -32,10 +37,11 @@ hr {
     margin: 0;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows:15vh 35vh 35vh 15vh;
+    grid-template-rows:15vh 35vh 35vh 3vh 12vh;
     grid-template-areas: "nav nav"
                          "tit sv"
                          "list bloctexte"
+                         "footercouleur2 footercouleur2"
                          "footer footer";
 }
 .drop-down{
@@ -43,6 +49,11 @@ hr {
 }
 .menu {
     display: none;
+}
+
+#lignefooter{
+    grid-area: footercouleur2;
+    background-color: #828AEE;
 }
 
 /* Mise en forme des différentes section de la grille */
@@ -480,7 +491,8 @@ a:hover .underline {
     align-items: center;
     margin-top: -10rem;
     padding-bottom: 10vh;
-} 
+}
+
 #barrebloc{
     display: none;
 }
@@ -492,11 +504,16 @@ a:hover .underline {
     margin: 0;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows:15vh 30vh 40vh 15vh;
+    grid-template-rows:15vh 30vh 40vh 3vh 12vh;
     grid-template-areas: "nav menu"
                          "sv sv"
                          "bloctexte bloctexte"
+                         " footercouleur2 footercouleur2"
                          "footer footer";
+}
+#lignefooter{
+    grid-area: footercouleur2;
+    background-color: #828AEE;
 }
 
 #vague {
@@ -691,6 +708,19 @@ display: block;
 padding: 0.5rem;
 }
 
+#sectiontexte  {
+    grid-area: bloctexte;
+    display:flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+#svgfooter {
+    grid-area: list;
+    align-self: end;
+    display: none;
+}
+
+
 }
 
 @media (min-width: 425px){
@@ -702,4 +732,10 @@ padding: 0.5rem;
         text-decoration: none;
     }
 
+    #sectiontexte  {
+        grid-area: bloctexte;
+        display:flex;
+        justify-content: center;
+        overflow-y: scroll;
+    }
 }

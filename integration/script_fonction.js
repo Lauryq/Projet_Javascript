@@ -1,9 +1,6 @@
 // Ajout du text page Fonction || Début
 
 let boutonFon1 = document.getElementById('bouton_fonction1');
-let boutonFon2 = document.getElementById('bouton_fonction2');
-let boutonFon3 = document.getElementById('bouton_fonction3');
-let boutonFon4 = document.getElementById('bouton_fonction4');
 
 boutonFon1.addEventListener('click', function() {
     p1.innerHTML = `<h2>Fonctions :</h2><hr>
