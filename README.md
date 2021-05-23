@@ -13,7 +13,8 @@ Réaliser une page Web sur les variables et les fonctions JS:
 * Les boucles
 * Les fonctions (anonymes, avec paramètres, .. )
 
-## Outils utilisés  
+## Langages et outils utilisés 
+* Trello
 * HTML5
 * CSS3
 * Javascript
@@ -22,4 +23,4 @@ Réaliser une page Web sur les variables et les fonctions JS:
 * [Oscar MILLOT](https://github.com/OscarM-Code)
 * [Mickaël CECEN](https://github.com/MickaelCe)
 * [Laury QUARTO](https://github.com/Lauryq)
-* Dylan CHAPUIS 
+* [Dylan CHAPUIS](https://github.com/CDylan-source) 
