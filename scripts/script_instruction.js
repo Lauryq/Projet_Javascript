@@ -5,13 +5,16 @@ let boutonIns2 = document.getElementById('bouton_instruction2');
 let boutonIns3 = document.getElementById('bouton_instruction3');
 let boutonIns4 = document.getElementById('bouton_instruction4');
 
+//texte instruction conditions//
 boutonIns2.addEventListener('click', function() {
     p1.innerHTML = `L'instruction if exécute une instruction si une condition donnée est vraie ou équivalente à vrai. Si la condition n'est pas vérifiée, il est possible d'utiliser une autre instruction.
-    Plusieurs instructions if...else peuvent être imbriquées afin de créer une structure else if (on notera qu'il n'y a pas de mot-clé elseif en JavaScript).
+    Plusieurs instructions if...else peuvent être imbriquées afin de créer une structure else if (on notera qu'il n'y a pas de mot-clé elseif en JavaScript).<br>
+    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/if...else">Source: site MDN</a>
     
     `;
 });
 
+//texte instruction boucles//
 boutonIns4.addEventListener('click', function() {
     p1.innerHTML = `Les boucles permettent de répéter des actions simplement et rapidement. Une boucle peut être vue comme une version informatique de « copier N lignes » ou de « faire X fois quelque chose ».<br>
     <br>
@@ -42,7 +45,8 @@ boutonIns4.addEventListener('click', function() {
     Lorsque continue est utilisé avec un label, il est appliqué à l'instruction de boucle correspondante.
     <br>
     •	L’instruction for...of<br>
-    L'instruction for...of crée une boucle qui fonctionne avec les objets itérables (qui incluent Array, Map, Set, l'objet arguments, etc.). La boucle appelle un mécanisme d'itération propre à l'objet utilisé et elle parcourt l'objet et les valeurs de ses différentes propriétés.
+    L'instruction for...of crée une boucle qui fonctionne avec les objets itérables (qui incluent Array, Map, Set, l'objet arguments, etc.). La boucle appelle un mécanisme d'itération propre à l'objet utilisé et elle parcourt l'objet et les valeurs de ses différentes propriétés.<br>
+    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Loops_and_iteration">Source: site MDN</a>
     `;
 });
 

@@ -5,6 +5,7 @@ let boutonFon2 = document.getElementById('bouton_fonction2');
 let boutonFon3 = document.getElementById('bouton_fonction3');
 let boutonFon4 = document.getElementById('bouton_fonction4');
 
+//texte definition fonction//
 boutonFon1.addEventListener('click', function() {
     p1.innerHTML = `Une fonction est une procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur.<br>
     <br>
@@ -14,7 +15,8 @@ boutonFon1.addEventListener('click', function() {
     •	Les instructions JavaScript définissant la fonction, entre accolades, { }.<br>
     <br>
     <br>    
-    La seule définition d'une fonction ne permet pas d'exécuter la fonction. Cela permet de lui donner un nom et de définir ce qui doit être fait lorsque la fonction est appelée. Appeler la fonction permet d'effectuer les actions des instructions avec les paramètres indiqués.
+    La seule définition d'une fonction ne permet pas d'exécuter la fonction. Cela permet de lui donner un nom et de définir ce qui doit être fait lorsque la fonction est appelée. Appeler la fonction permet d'effectuer les actions des instructions avec les paramètres indiqués.<br>
+    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Functions">Source: site MDN</a>
     `;
 });
 
